@@ -6,12 +6,12 @@ In this repository there are several difference CSV's. The 'golf_data.csv' repre
 ### The Notebook
 The 'data_acquisition.ipynb' is the jupyter notebook that includes the code used to merge all the data together and clean it to prepare it for analysis. I used a for loop to look through each individual CSV and pull the column of interest out, and merge that into the data frame.
 ### Data Overview/Dictionary
-Overall we finished with 8 columns and 177 rows. Below is a dictionary defining each column name, what it means, and the data type in the column.
-PLAYER_ID - the individual player id of each player in the data set. (int)
-PLAYER - The name of the individual player. (string)
-AVG - That players scoring average per 18 holes for the current season. (float)
-driving_distance_AVG - the average driving distance of that player. Note each tournament only has 2 out of the 18 holes that measure this. (float)
-fir_% - Percentage of fairways hit in regulation, regardless of club used off the tee. Fairway in regulation means you hit the fair way with your first shot on non par 3 holes. (float)
-gir_% - Percentage of greens hit in regulation. A green in regulation is counted if you are on the green with at least 2 shots away from par. (float)
-putting_AVG - Average total number of putts per 18 holes recorded by that player. A putt is a shot hit with the putter while on the green. (float)
-scrambling_% - A percent value of how often a player successfully scrambles. A scrambling opportunity is only recorded when a player is not on a green in regulation, and a success means that the player was not on the green in regulation but still recorded par or better. (float)
+Overall we finished with 8 columns and 177 rows. Below is a dictionary defining each column name, what it means, and the data type in the column. \n
+PLAYER_ID - the individual player id of each player in the data set. (int) \n
+PLAYER - The name of the individual player. (string) \n
+AVG - That players scoring average per 18 holes for the current season. (float) \n
+driving_distance_AVG - the average driving distance of that player. Note each tournament only has 2 out of the 18 holes that measure this. (float) \n
+fir_% - Percentage of fairways hit in regulation, regardless of club used off the tee. Fairway in regulation means you hit the fair way with your first shot on non par 3 holes. (float) \n
+gir_% - Percentage of greens hit in regulation. A green in regulation is counted if you are on the green with at least 2 shots away from par. (float) \n
+putting_AVG - Average total number of putts per 18 holes recorded by that player. A putt is a shot hit with the putter while on the green. (float) \n
+scrambling_% - A percent value of how often a player successfully scrambles. A scrambling opportunity is only recorded when a player is not on a green in regulation, and a success means that the player was not on the green in regulation but still recorded par or better. (float) \n
